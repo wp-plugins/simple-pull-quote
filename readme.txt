@@ -34,5 +34,3 @@ To change the look of your pull quotes, simply edit the CSS file included in the
 
 1. Step-by-step usage instructions
 2. Simple Pull Quote in action
-
-For more information, visit the [Simple Pull Quote Homepage](http://themightymo.com/simple-pull-quote "Simple Pull Quote Wordpress Plugin").
