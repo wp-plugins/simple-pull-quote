@@ -24,7 +24,7 @@ The Simple Pull Quote Wordpress Plugin provides an easy way for you to insert pu
 
 1. Create a custom field name of "quote" with a value of the text to be quoted
 2. Type "[quote]" in your post or page wherever you want the pull quote to appear.
-Visit the [Simple Pull Quote Homepage](http://themightymo.com/simple-pull-quote "Simple Pull Quote Wordpress Plugin") for a visual guide.
+<br /><br />For more help on usage, visit the [Simple Pull Quote Homepage](http://themightymo.com/simple-pull-quote "Simple Pull Quote Wordpress Plugin") for a visual guide.
 
 = How do I update the look of the pull quotes? =
 
