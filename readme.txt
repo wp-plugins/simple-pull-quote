@@ -32,7 +32,7 @@ To change the look of your pull quotes, simply edit the CSS file included in the
 
 == Screenshots ==
 
-1. Step-by-step usage instructions can be found in this image: `/tags/images/simple-pull-quote-how-to.gif`
-2. Step-by-step usage instructions can be found in this image: `/tags/images/simple-pull-quote-in-action.gif`
+1. Step-by-step usage instructions can be found in this image: `/tags/simple-pull-quote-how-to.gif`
+2. Step-by-step usage instructions can be found in this image: `/tags/simple-pull-quote-in-action.gif`
 
 For more information, visit the [Simple Pull Quote Homepage](http://themightymo.com/simple-pull-quote "Simple Pull Quote Wordpress Plugin").
