@@ -10,7 +10,7 @@ The Simple Pull Quote Wordpress Plugin provides an easy way for you to insert pu
 
 == Description ==
 
-The Simple Pull Quote Wordpress Plugin provides an easy way for you to insert pull quotes.  Simply use the shortcode, “[quote]“, in your post along with a custom field name “quote” with a value of the text to be quoted.
+The Simple Pull Quote Wordpress Plugin provides an easy way for you to insert pull quotes into your posts and pages. 
 
 
 == Installation ==
