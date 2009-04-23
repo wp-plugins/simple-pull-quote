@@ -1,4 +1,4 @@
-=== Simple Pull Quote Wordpress Plugin ===
+=== Simple Pull Quote ===
 Contributors: llamaman
 Donate link: http://themightymo.com/donate
 Tags: pull quote,quotes
