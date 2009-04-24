@@ -28,7 +28,7 @@ The Simple Pull Quote Wordpress Plugin provides an easy way for you to insert pu
 
 = How do I update the look of the pull quotes? =
 
-To change the look of your pull quotes, open your theme's "style.css" file and create a CSS class called "simplePullQuotes".  Edit this class according to your tastes.  **IMPORTANT:** Make sure your theme's "wp_head()" function comes before your theme's stylesheet or else this method won't work.
+To change the look of your pull quotes, open your theme's "style.css" file and create a CSS class called "simplePullQuotes".  Edit this class according to your tastes.  **IMPORTANT:** Make sure your theme's "wp_head()" function comes before your theme's stylesheet or else this won't work.
 
 = Versions =
 
