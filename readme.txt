@@ -30,6 +30,11 @@ The Simple Pull Quote Wordpress Plugin provides an easy way for you to insert pu
 
 To change the look of your pull quotes, simply edit the CSS file included in the plugin installation folders at "wp-content/plugins/simple-pull-quote/css/simple-pull-quote.css".  Style the pull quotes with the CSS class of “simplePullQuote”.
 
+= Versions =
+
+0.2 - Initial public release
+0.2.1 - Removed text-based quotes by default. Now users must add their own quotes if they want them.  This gives users more flexibility.
+
 == Screenshots ==
 
 1. Step-by-step usage instructions
