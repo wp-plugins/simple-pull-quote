@@ -34,6 +34,7 @@ To change the look of your pull quotes, open your theme's "style.css" file and c
 
 0.2 - Initial public release<br />
 0.2.1 - Removed text-based quotes by default. Now users must add their own quotes if they want them.  This gives users more flexibility.
+0.2.2 - Added shortcode for multiple quotes: [quote1], [quote2]
 
 == Screenshots ==
 

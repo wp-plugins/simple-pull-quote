@@ -2,14 +2,14 @@
 /**
  * @package Simple Pull Quote
  * @author Toby Cryns
- * @version 0.2.1
+ * @version 0.2.2
  */
 /*
 Plugin Name: Simple Pull Quote
 Plugin URI: http://www.themightymo.com/simple-pull-quote
 Description: Easily add a pull quote to blog posts using a custom field and shortcode.
 Author: Toby Cryns
-Version: 0.2.1
+Version: 0.2.2
 Author URI: http://www.themightymo.com/updates
 */
 
@@ -42,6 +42,24 @@ function getQuote(){
 }
 /* Allow us to add the pull quote using Wordpress shortcode, "[quote]" */
 add_shortcode('quote', 'getQuote');
+
+function getQuote1(){
+	global $post;
+	$my_custom_field = get_post_meta($post->ID, "quote1", true);
+	/* Add CSS classes to the pull quote (a.k.a. Style the thing!) */
+	return '<div class="simplePullQuote" cite="<?php echo get_permalink() ?>">'.$my_custom_field.'</div>'; 
+}
+/* Allow us to add the pull quote using Wordpress shortcode, "[quote]" */
+add_shortcode('quote1', 'getQuote');
+
+function getQuote2(){
+	global $post;
+	$my_custom_field = get_post_meta($post->ID, "quote2", true);
+	/* Add CSS classes to the pull quote (a.k.a. Style the thing!) */
+	return '<div class="simplePullQuote" cite="<?php echo get_permalink() ?>">'.$my_custom_field.'</div>'; 
+}
+/* Allow us to add the pull quote using Wordpress shortcode, "[quote]" */
+add_shortcode('quote2', 'getQuote');
 
 /* Add the CSS file to the header when the page loads */
 add_action('wp_head', 'my_css');
