@@ -50,7 +50,7 @@ function getQuote1(){
 	return '<div class="simplePullQuote" cite="<?php echo get_permalink() ?>">'.$my_custom_field.'</div>'; 
 }
 /* Allow us to add the pull quote using Wordpress shortcode, "[quote]" */
-add_shortcode('quote1', 'getQuote');
+add_shortcode('quote1', 'getQuote1');
 
 function getQuote2(){
 	global $post;
@@ -59,7 +59,7 @@ function getQuote2(){
 	return '<div class="simplePullQuote" cite="<?php echo get_permalink() ?>">'.$my_custom_field.'</div>'; 
 }
 /* Allow us to add the pull quote using Wordpress shortcode, "[quote]" */
-add_shortcode('quote2', 'getQuote');
+add_shortcode('quote2', 'getQuote2');
 
 /* Add the CSS file to the header when the page loads */
 add_action('wp_head', 'my_css');
