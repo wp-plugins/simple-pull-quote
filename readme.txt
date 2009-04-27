@@ -42,6 +42,10 @@ Simple Pull Quote currently supports up to 3 pull quotes in a single post or pag
 0.2.3 - Switched the quote .gif file with a .png that will support any color background.<br />
 0.2.4 - Fixed Wordpress Plugin Repository file downloading issue.
 
+= Questions, Comments, Pizza Recipes? =
+
+Look me up on [Twitter](http://twitter.com/themightymo "Twitter") or contact me [here](http://www.themightymo.com/contact-us/ "Contact Me").
+
 == Screenshots ==
 
 1. Step-by-step usage instructions
