@@ -6,11 +6,11 @@ Requires at least: 2.7
 Tested up to: 2.7.1
 Stable tag: trunk
 
-The Simple Pull Quote Wordpress Plugin provides an easy way for you to insert pull quotes into your posts and pages.  
+IMPORTANT: I AM HAVING ISSUES UPLOADING THE PLUGIN FILES TO WORDPRESS. I AM WORKING ON RESOLVING THE ISSUE.  The Simple Pull Quote Wordpress Plugin provides an easy way for you to insert pull quotes into your posts and pages.  
 
 == Description ==
 
-The Simple Pull Quote Wordpress Plugin provides an easy way for you to insert pull quotes into your posts and pages. 
+IMPORTANT: I AM HAVING ISSUES UPLOADING THE PLUGIN FILES TO WORDPRESS. I AM WORKING ON RESOLVING THE ISSUE.  The Simple Pull Quote Wordpress Plugin provides an easy way for you to insert pull quotes into your posts and pages. 
 
 
 == Installation ==
