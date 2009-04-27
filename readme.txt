@@ -30,11 +30,16 @@ The Simple Pull Quote Wordpress Plugin provides an easy way for you to insert pu
 
 To change the look of your pull quotes, open your theme's "style.css" file and create a CSS class called "simplePullQuotes".  Edit this class according to your tastes.  **IMPORTANT:** Make sure your theme's "wp_head()" function comes before your theme's stylesheet or else this won't work.
 
+= How do I use more than one pull quote in a single post or page? =
+
+Simple Pull Quote currently supports up to 3 pull quotes in a single post or page.  To use the other two pull quotes, simply enter "quote1" and/or "quote2" into the custom field name and give it a custom field value of your quote(s).  Then, in the post/page, enter "[quote1]" and/or [quote2].
+
 = Versions =
 
 0.2 - Initial public release<br />
 0.2.1 - Removed text-based quotes by default. Now users must add their own quotes if they want them.  This gives users more flexibility.<br />
-0.2.2 - Added shortcode for multiple quotes: [quote1], [quote2]
+0.2.2 - Added shortcode for multiple quotes: [quote1], [quote2]<br />
+0.2.3 - Switched the quote .gif file with a .png that will support any color background.
 
 == Screenshots ==
 
