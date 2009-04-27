@@ -38,7 +38,7 @@ function getQuote(){
 	global $post;
 	$my_custom_field = get_post_meta($post->ID, "quote", true);
 	/* Add CSS classes to the pull quote (a.k.a. Style the thing!) */
-	return '<div class="simplePullQuote" cite="<?php echo get_permalink() ?>">'.$my_custom_field.'</div>'; 
+	return '<div class="simplePullQuote">'.$my_custom_field.'</div>'; 
 }
 /* Allow us to add the pull quote using Wordpress shortcode, "[quote]" */
 add_shortcode('quote', 'getQuote');
@@ -47,7 +47,7 @@ function getQuote1(){
 	global $post;
 	$my_custom_field = get_post_meta($post->ID, "quote1", true);
 	/* Add CSS classes to the pull quote (a.k.a. Style the thing!) */
-	return '<div class="simplePullQuote" cite="<?php echo get_permalink() ?>">'.$my_custom_field.'</div>'; 
+	return '<div class="simplePullQuote">'.$my_custom_field.'</div>'; 
 }
 /* Allow us to add the pull quote using Wordpress shortcode, "[quote]" */
 add_shortcode('quote1', 'getQuote1');
@@ -56,7 +56,7 @@ function getQuote2(){
 	global $post;
 	$my_custom_field = get_post_meta($post->ID, "quote2", true);
 	/* Add CSS classes to the pull quote (a.k.a. Style the thing!) */
-	return '<div class="simplePullQuote" cite="<?php echo get_permalink() ?>">'.$my_custom_field.'</div>'; 
+	return '<div class="simplePullQuote">'.$my_custom_field.'</div>'; 
 }
 /* Allow us to add the pull quote using Wordpress shortcode, "[quote]" */
 add_shortcode('quote2', 'getQuote2');
