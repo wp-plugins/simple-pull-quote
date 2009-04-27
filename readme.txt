@@ -39,7 +39,7 @@ Simple Pull Quote currently supports up to 3 pull quotes in a single post or pag
 0.2 - Initial public release<br />
 0.2.1 - Removed text-based quotes by default. Now users must add their own quotes if they want them.  This gives users more flexibility.<br />
 0.2.2 - Added shortcode for multiple quotes: [quote1], [quote2]<br />
-0.2.3 - Switched the quote .gif file with a .png that will support any color background.
+0.2.3 - Switched the quote .gif file with a .png that will support any color background.<br />
 0.2.4 - Fixed Wordpress Plugin Repository file downloading issue.
 
 == Screenshots ==
