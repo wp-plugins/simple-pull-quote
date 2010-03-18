@@ -1,9 +1,0 @@
-.simplePullQuote{
-	width:200px;
-	float:right;
-	font:large bold italic "Times New Roman", Times, serif;
-	border-top:3px #c00 double;
-	border-bottom:3px #c00 double;
-	background: top left no-repeat url("../images/quote.png");
-	text-indent:10px;
-	padding:6px;}
