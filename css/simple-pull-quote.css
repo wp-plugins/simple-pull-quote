@@ -1,6 +1,6 @@
 .simplePullQuote{
 	width:200px;
-	float:right;
+	float:left;
 	border-top:3px #868686 solid;
 	border-bottom:3px #868686 solid;
 	background: top left no-repeat url("../images/quote.png");
