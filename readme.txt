@@ -53,15 +53,31 @@ Version 1.0 of Simple Pull Quote is backwards compatible with previous versions.
 
 == Changelog == 
 
-0.2 - Initial public release<br />
-0.2.1 - Removed text-based quotes by default. Now users must add their own quotes if they want them.  This gives users more flexibility.<br />
-0.2.2 - Added shortcode for multiple quotes: [quote1], [quote2]<br />
-0.2.3 - Switched the quote .gif file with a .png that will support any color background.<br />
-0.2.4 - Fixed Wordpress Plugin Repository file downloading issue.
-1.0 - No need for custom fields!  (However legacy support for custom fields still exists.)<br />
-	- Added "Pullquote" buttons to both the html and visual editors.<br />
-	- Updated CSS Code<br />
-	- Many thanks to [Darrell Schulte](http://twitter.com/darrell_schulte "Darrell Schulte") for his help in making version 1.0 a reality! 
+= 0.2 =
+
+* Initial public release
+
+= 0.2.1 =
+
+* Removed text-based quotes by default. Now users must add their own quotes if they want them.  This gives users more flexibility.<br />
+
+= 0.2.2 =
+
+* Added shortcode for multiple quotes: [quote1], [quote2]<br />
+
+=0.2.3 =
+* Switched the quote .gif file with a .png that will support any color background.<br />
+
+= 0.2.4 =
+
+* Fixed Wordpress Plugin Repository file downloading issue.
+
+= 1.0 =
+
+* No need for custom fields!  (However legacy support for custom fields still exists.)
+* Added "Pullquote" buttons to both the html and visual editors.
+* Updated CSS Code
+* Many thanks to [Darrell Schulte](http://twitter.com/darrell_schulte "Darrell Schulte") for his help in making version 1.0 a reality! 
 
 
 == Screenshots ==
