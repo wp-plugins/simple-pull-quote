@@ -63,10 +63,11 @@ Version 1.0 of Simple Pull Quote is backwards compatible with previous versions.
 
 = 0.2.2 =
 
-* Added shortcode for multiple quotes: [quote1], [quote2]<br />
+* Added shortcode for multiple quotes: [quote1], [quote2]
 
-=0.2.3 =
-* Switched the quote .gif file with a .png that will support any color background.<br />
+= 0.2.3 =
+
+* Switched the quote .gif file with a .png that will support any color background.
 
 = 0.2.4 =
 
