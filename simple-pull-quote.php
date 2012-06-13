@@ -2,14 +2,14 @@
 /**
  * @package Simple Pull Quote
  * @author Toby Cryns
- * @version 1.0
+ * @version 1.1
  */
 /*
 Plugin Name: Simple Pull Quote
 Plugin URI: http://www.themightymo.com/simple-pull-quote
 Description: Easily add pull quotes to blog posts using shortcode.
 Author: Toby Cryns
-Version: 1.0
+Version: 1.1
 Author URI: http://www.themightymo.com/updates
 */
 
