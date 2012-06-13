@@ -39,6 +39,7 @@ function my_css() {
 
 function getSimplePullQuote( $atts, $content = null ) {
         /* Add CSS classes to the pull quote (a.k.a. Style the thing!) */
+		$content = wpautop(trim($content));
         return '<div class="simplePullQuote">'.$content.'</div>';
 }
 
