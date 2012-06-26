@@ -85,6 +85,11 @@ Version 1.0 of Simple Pull Quote is backwards compatible with previous versions.
 * Removed inadvertent line breaks caused by wptexturize()
 * Thanks to http://sww.co.nz/solution-to-wordpress-adding-br-and-p-tags-around-shortcodes/ for this fix 
 
+= 1.2 =
+
+* Fixed the file path reference to the stylesheet to use "plugins_url" rather than "wpurl"
+* Thanks to John LeBlanc for this fix: http://wordpress.org/support/profile/johnleblanc
+
 
 == Screenshots ==
 

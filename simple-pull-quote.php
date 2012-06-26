@@ -2,7 +2,7 @@
 /**
  * @package Simple Pull Quote
  * @author Toby Cryns
- * @version 1.1
+ * @version 1.2
  */
 /*
 Plugin Name: Simple Pull Quote
@@ -34,7 +34,7 @@ Author URI: http://www.themightymo.com/updates
 require_once (dirname(__FILE__) . '/simple-pull-quote_tinymce.php');
 
 function my_css() {
-        echo '<link type="text/css" rel="stylesheet" href="' . get_bloginfo('wpurl') .'/wp-content/plugins/simple-pull-quote/css/simple-pull-quote.css" />' . "\n";
+        echo '<link type="text/css" rel="stylesheet" href="' . plugins_url( 'css/simple-pull-quote.css', __FILE__ ) . '" />' . "\n";
 }
 
 function getSimplePullQuote( $atts, $content = null ) {
