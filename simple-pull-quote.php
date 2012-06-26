@@ -9,7 +9,7 @@ Plugin Name: Simple Pull Quote
 Plugin URI: http://www.themightymo.com/simple-pull-quote
 Description: Easily add pull quotes to blog posts using shortcode.
 Author: Toby Cryns
-Version: 1.1
+Version: 1.2
 Author URI: http://www.themightymo.com/updates
 */
 
