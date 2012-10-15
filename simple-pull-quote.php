@@ -40,7 +40,7 @@ function my_css() {
 function getSimplePullQuote( $atts, $content = null ) {
         /* Add CSS classes to the pull quote (a.k.a. Style the thing!) */
 		$content = wpautop(trim($content));
-        return '<div class="simplePullQuote">'.$content.'</div>';
+        return '<div class="simplePullQuote">'. do_shortcode($content) .'</div>';
 }
 
 // Allow us to add the pull quote using Wordpress shortcode, "[pullquote][/pullquote]" 
