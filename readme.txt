@@ -3,7 +3,7 @@ Contributors: llamaman, themightymo
 Donate link: http://themightymo.com/donate
 Tags: pull quote,quotes, quotation
 Requires at least: 2.5
-Tested up to: 3.4
+Tested up to: 3.7.1
 Stable tag: trunk
 
 The Simple Pull Quote WordPress Plugin provides an easy way for you to insert pull quotes into your posts and pages.  
