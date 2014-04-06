@@ -3,7 +3,7 @@ Contributors: llamaman, themightymo
 Donate link: http://themightymo.com/donate
 Tags: pull quote,quotes, quotation
 Requires at least: 2.5
-Tested up to: 3.7.1
+Tested up to: 3.8.1
 Stable tag: trunk
 
 The Simple Pull Quote WordPress Plugin provides an easy way for you to insert pull quotes into your posts and pages.  
@@ -56,25 +56,23 @@ Version 1.0 of Simple Pull Quote is backwards compatible with previous versions.
 
 == Changelog == 
 
-= 0.2 =
+= 1.4 =
+* Cleaned up readme.txt’s changelog
+* Added “quicktags” dependency to javascript load per http://wordpress.org/support/topic/wp_enqueue_script-missing-dependency?replies=2#post-3451836 (Thanks Aaron Campbell)
+* Enqueue the simple-pull-quote.js on specific pages rather than on every admin page per http://wordpress.org/support/topic/wp_enqueue_script-missing-dependency?replies=2#post-3451836 (Thanks Aaron Campbell)
+* Removed white space at the bottom of simple-pull-quote.php and simple-pull-quote-tinymce.php
 
-* Initial public release
+= 1.3 =
 
-= 0.2.1 =
+= 1.2 =
 
-* Removed text-based quotes by default. Now users must add their own quotes if they want them.  This gives users more flexibility.<br />
+* Fixed the file path reference to the stylesheet to use "plugins_url" rather than "wpurl"
+* Thanks to John LeBlanc for this fix: http://wordpress.org/support/profile/johnleblanc
 
-= 0.2.2 =
+= 1.1 =
 
-* Added shortcode for multiple quotes: [quote1], [quote2]
-
-= 0.2.3 =
-
-* Switched the quote .gif file with a .png that will support any color background.
-
-= 0.2.4 =
-
-* Fixed Wordpress Plugin Repository file downloading issue.
+* Removed inadvertent line breaks caused by wptexturize()
+* Thanks to http://sww.co.nz/solution-to-wordpress-adding-br-and-p-tags-around-shortcodes/ for this fix 
 
 = 1.0 =
 
@@ -83,15 +81,26 @@ Version 1.0 of Simple Pull Quote is backwards compatible with previous versions.
 * Updated CSS Code
 * Many thanks to [Darrell Schulte](http://twitter.com/darrell_schulte "Darrell Schulte") for his help in making version 1.0 a reality! 
 
-= 1.1 =
+= 0.2.4 =
 
-* Removed inadvertent line breaks caused by wptexturize()
-* Thanks to http://sww.co.nz/solution-to-wordpress-adding-br-and-p-tags-around-shortcodes/ for this fix 
+* Fixed Wordpress Plugin Repository file downloading issue.
 
-= 1.2 =
+= 0.2.3 =
 
-* Fixed the file path reference to the stylesheet to use "plugins_url" rather than "wpurl"
-* Thanks to John LeBlanc for this fix: http://wordpress.org/support/profile/johnleblanc
+* Switched the quote .gif file with a .png that will support any color background.
+
+
+= 0.2.2 =
+
+* Added shortcode for multiple quotes: [quote1], [quote2]
+
+= 0.2.1 =
+
+* Removed text-based quotes by default. Now users must add their own quotes if they want them.  This gives users more flexibility.<br />
+
+= 0.2 =
+
+* Initial public release
 
 
 == Screenshots ==

@@ -2,14 +2,14 @@
 /**
  * @package Simple Pull Quote
  * @author Toby Cryns
- * @version 1.3
+ * @version 1.4
  */
 /*
 Plugin Name: Simple Pull Quote
 Plugin URI: http://www.themightymo.com/simple-pull-quote
 Description: Easily add pull quotes to blog posts using shortcode.
 Author: Toby Cryns
-Version: 1.3
+Version: 1.4
 Author URI: http://www.themightymo.com/updates
 */
 
@@ -50,11 +50,12 @@ add_shortcode('pullquote', 'getSimplePullQuote');
 add_action('wp_head', 'my_css');
 
 /* Call the javascript file that loads the html editor button */
-add_action('admin_print_scripts', 'simplePullQuotes');
+//add_action('admin_print_scripts', 'simplePullQuotes');
 function simplePullQuotes() {
 	wp_enqueue_script(
 		'simple-pull-quotes',
-		plugin_dir_url(__FILE__) . 'simple-pull-quote.js'
+		plugin_dir_url(__FILE__) . 'simple-pull-quote.js',
+		array('quicktags')
 	);
 }
 
@@ -63,6 +64,13 @@ function simple_pull_quotes_plugin( $plugins ) {
 	$plugins['simplepullquotes'] = plugins_url('/simple-pull-quote/tinymce3/editor_plugin.js');
 	return $plugins;
 }
+
+function specific_enqueue($hook_suffix) {
+   if( 'post.php' == $hook_suffix || 'post-new.php' == $hook_suffix ) {
+     add_action('admin_print_scripts', 'simplePullQuotes');
+  }
+}
+add_action( 'admin_enqueue_scripts', 'specific_enqueue' );
 
 
 
@@ -98,5 +106,3 @@ function getQuote2(){
 
 // Allow us to add the pull quote using Wordpress shortcode, "[quote]" */
 add_shortcode('quote2', 'getQuote2');
-
-?>
