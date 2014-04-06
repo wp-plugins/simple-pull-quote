@@ -15,6 +15,8 @@ Simple Pull Quote Wordpress Plugin provides an easy way for you to insert pull q
 See the plugin in action as well as how to use it:
 http://youtu.be/JGudI9gr9iE
 
+[youtube http://youtu.be/JGudI9gr9iE]
+
 == Installation ==
 
 1. Either use the built-in Wordpress plugin installer to grab the plugin from the Wordpress plugin repository, or upload the entire contents of the `simple-pull-quote.zip` folder to the `/wp-content/plugins/` directory.
@@ -29,6 +31,7 @@ A: No.  You can have as many pull quotes as you would like.
 
 Q: How do I change the colors and background image on the pullquotes?
 A: Override the default "simplePullQuote" class in your theme's CSS file.  Here is a “How To” video about this: http://youtu.be/qvg2BFnN0pQ
+[youtube http://youtu.be/qvg2BFnN0pQ]
 
 Q: Where is the "Pullquote" button in the HTML editor?
 A: I don't know.  It disappeared with the most recent version of WordPress, and I am working on fixing it.
