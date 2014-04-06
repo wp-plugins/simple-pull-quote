@@ -28,7 +28,7 @@ Q: Is there a maximum number of pull quotes I can have on a single blog post or 
 A: No.  You can have as many pull quotes as you would like.
 
 Q: How do I change the colors and background image on the pullquotes?
-A: Override the default "simplePullQuote" class in your theme's CSS file.
+A: Override the default "simplePullQuote" class in your theme's CSS file.  Here is a “How To” video about this: http://youtu.be/qvg2BFnN0pQ
 
 Q: Where is the "Pullquote" button in the HTML editor?
 A: I don't know.  It disappeared with the most recent version of WordPress, and I am working on fixing it.
