@@ -15,7 +15,7 @@ Simple Pull Quote Wordpress Plugin provides an easy way for you to insert pull q
 See the plugin in action as well as how to use it:
 http://youtu.be/JGudI9gr9iE
 
-[youtube http://youtu.be/JGudI9gr9iE]
+[youtube http://www.youtube.com/watch?v= JGudI9gr9iE]
 
 == Installation ==
 
